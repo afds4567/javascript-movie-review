@@ -1,8 +1,8 @@
-import { getCurrentResult } from "./api/keywordSearch";
-import { getPopularMovie } from "./api/movieList";
 import MovieItemList from "./components/MovieItemList";
 import SearchBox from "./components/SearchBox";
 import { generateElement } from "./domain/MovieDataManager";
+import { getCurrentResult } from "./api/keywordSearch";
+import { getPopularMovie } from "./api/movieList";
 
 export const App = async () => {
   const searchBox = SearchBox();

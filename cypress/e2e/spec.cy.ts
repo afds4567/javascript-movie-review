@@ -1,5 +1,3 @@
-import { getPopularMovie } from "../../src/api/movieList";
-
 describe("template spec", () => {
   beforeEach(() => {
     cy.visit("http://localhost:8080/");
