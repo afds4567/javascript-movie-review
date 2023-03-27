@@ -104,6 +104,8 @@ export const App = async () => {
 
   await showPopularMovies();
 
+  document.querySelector(".logo")?.addEventListener("click", async () => await showPopularMovies())
+
   document
     .querySelector(".search-input")
     ?.addEventListener("searchButtonClicked", onSearchButtonClicked);
